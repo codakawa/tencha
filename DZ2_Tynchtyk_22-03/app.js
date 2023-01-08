@@ -10,6 +10,8 @@ var movieFriends = {
 console.log("Сериал " + movieFriends.name + " был выпущен " + movieFriends.realeseDate + " года. В главных ролях " + movieFriends.mainActors + ". В фильме " + movieFriends.name + " " + movieFriends.seasons + " сезонов и " + movieFriends.episodes + " серии. А так же сериал имеет оценку " + movieFriends.raiting + ".");
 
 // ----------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------
+
 
 var dayOfWeek = prompt("Введите день недели (english): ");
 
