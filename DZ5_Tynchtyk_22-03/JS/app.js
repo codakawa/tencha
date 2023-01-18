@@ -7,6 +7,7 @@ function stringReverse(str) {
 }
 console.log(stringReverse("Hello World!"));
 
+// ----------------------------------------------------------------------------------------
 
 function avgNums(...arrayOfNums) {
     return ((arrayOfNums.reduce((a, b) => a += b)) / arrayOfNums.length);
