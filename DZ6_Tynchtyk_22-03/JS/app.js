@@ -11,8 +11,13 @@ p.textContent = num;
 const body = document.body; //document.body
 body.appendChild(p);
 
-document.querySelector(".numBtn").addEventListener("click", function() {
+document.querySelector(".plusBtn").addEventListener("click", function() {
     num++;
+    p.textContent = num;
+})
+
+document.querySelector(".minusBtn").addEventListener("click", function() {
+    num--;
     p.textContent = num;
 })
 
