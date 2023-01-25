@@ -20,4 +20,3 @@ document.querySelector(".minusBtn").addEventListener("click", function() {
     num--;
     p.textContent = num;
 })
-
