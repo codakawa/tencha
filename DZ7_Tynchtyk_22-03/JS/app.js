@@ -9,6 +9,11 @@ for(let i of document.querySelectorAll("button")) {
             header.textContent = result;
             toSolve = "";
         }
+    } else if(i.textContent === "<") {
+        i.onclick = function() {
+            toSolve = toSolve.slice(0, -1);
+            header.textContent = toSolve;
+        }
     } else {
         i.onclick = function() {
             toSolve += i.textContent;
