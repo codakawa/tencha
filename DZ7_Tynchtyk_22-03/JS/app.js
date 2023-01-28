@@ -1,4 +1,4 @@
-let toSolve = "10.5/2";
+let toSolve = "";
 let result = "";
 
 let header = document.querySelector("header");
