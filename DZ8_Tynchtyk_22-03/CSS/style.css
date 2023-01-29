@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d2630;
+    width: 770px;
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    left: 0;
+    right: 0;
+    padding: 30px 0;
+    border-radius: 8px;
+}
+
+.magics {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.magic{
+    background: white;
+    padding: 5px 10px;
+    border-radius: 0px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.magic > * {
+    display: block;
+}
+
+.magic span{
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 2px solid #d1d3d4;
+
+}
+
+.magic button{
+    border: none;
+    background: #19A68C;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 0 10px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
